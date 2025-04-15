@@ -56,7 +56,7 @@ checksum = "d75a2a4b1b190afb6f5425f10f6a8f959d2ea0b9c2b1d79553551850539e4674"
 
 [[package]]
 name = "jsonrs"
-version = "0.3.4"
+version = "0.3.5"
 dependencies = [
  "flate2",
  "lazy_static",
@@ -130,9 +130,9 @@ checksum = "53a49587ad06b26609c52e423de037e7f57f20d53535d66e08c695f347df952a"
 
 [[package]]
 name = "rustler"
-version = "0.35.1"
+version = "0.36.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a9f6bb374bf0a1431cff92ee6a89e39b9978fa4dbccc4137605be4ed5118779"
+checksum = "f04a7b61bf2db5495d6c0d2eb4b3f0f366864d47f2482834656e25d1b25fe290"
 dependencies = [
  "inventory",
  "libloading",
@@ -142,9 +142,9 @@ dependencies = [
 
 [[package]]
 name = "rustler_codegen"
-version = "0.35.1"
+version = "0.36.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f7914359a19fff34b2f0e9d4b7d4b02ca5ee597e52804c7472802b25e1ec543e"
+checksum = "bf9365a04e3a3a4d3136953d97c67fd0a9c036d36197917961551c2cc1ecb385"
 dependencies = [
  "heck",
  "inventory",
@@ -209,7 +209,7 @@ dependencies = [
 [[package]]
 name = "serde_rustler"
 version = "0.0.9"
-source = "git+https://github.com/benhaney/serde_rustler?tag=v0.0.9#047980d19312797941e564dac74a2fb2975ee020"
+source = "git+https://github.com/Zarathustra2/serde_rustler#317be8e5225a739346f9afaebcf8941bc26abf42"
 dependencies = [
  "lazy_static",
  "quick-error",
